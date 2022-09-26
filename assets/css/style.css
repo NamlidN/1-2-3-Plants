@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    cursor:progress;
+}
+body{
+    font-family: openn;
+    cursor: help;
+}
+header{
+    background-image:url("../img/Lev3_2_css-einführung_box-model_img.jpeg") ;
+    height: 100vh;
+    background-size: cover;
+}
+.haupt{
+    color: white;
+    margin-left: 100px;
+    font-family: freder;
+    padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+color: rgb(255, 255, 255);
+margin-top: 150px;
+}
+.erster{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+article{
+    height: 500px;
+    width: 200px;
+    margin-left: 600px;
+}
+.readmore_a{
+    color: aliceblue;
+    text-align: center;
+    border: solid 1px;
+    margin-left: 45px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.readmore_a:hover{
+    background-color: white;
+color: black;
+}
+
+.ul_nav{
+list-style-type: none;
+color: white;
+text-align: right;
+margin-right: 20px;
+}
+li{
+    color: white;
+    text-align: right;
+}
+.aa{
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+.aa:hover{
+    text-decoration: underline;
+    color: gray;
+}
+section{
+    text-align: center;
+    margin-top: 50px;
+}
+.unten{
+    margin-bottom: 25px;
+}
+.text_un{
+    text-align: center;
+    margin: 0 200px;
+
+}
+div{
+    border: double 4px black;
+    width: min-content;
+    margin: 0px auto;
+    padding: 10px 70px;
+}
+footer{
+    background-color: rgb(77, 79, 103);
+    height: 170px;
+    padding: 20px 20px 5px 20px;
+    margin-top: 50px;
+}
+.footer_p{
+    color: white;
+    padding: 5px;
+}
+.findus_a{
+    color: aliceblue;
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 5px 45px;
+    text-decoration: none;
+}
+.findus_a:hover{
+background-color: white;
+color: black;
+}
+.y{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+}
+.y:hover{
+    text-decoration: underline;
+    color: gray;
+}
+.ü{
+    position: relative;
+    list-style-type: none;
+    margin-left: 480px;
+    margin-top: 10px;
+    text-align: right;
+    word-spacing: 10px;
+}
+.ä{
+    list-style-type: none;
+    display:inline-block;
+
+}
+@font-face {
+    font-family:freder ;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+    font-family: openn ;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+.ölf:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
